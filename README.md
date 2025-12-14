@@ -1,21 +1,27 @@
-[![GitHub Workflow Status](https://github.com/mliebelt/PgnViewerJS/actions/workflows/nodejs.yml/badge.svg)](https://github.com/mliebelt/PgnViewerJS/actions[)
-[![npm (tag)](https://img.shields.io/npm/v/@mliebelt/pgn-reader)](https://www.npmjs.com/package/@mliebelt/pgn-reader)
-[![npm](https://img.shields.io/npm/dm/@mliebelt/pgn-reader)](https://www.npmjs.com/package/@mliebelt/pgn-reader)
-[![NPM](https://img.shields.io/npm/l/@mliebelt/pgn-reader)](https://github.com/mliebelt/PgnViewerJS/blob/main/modules/pgn-reader/LICENSE.md)
+# PGN Manager
 
-# In a Nutshell
+Private PGN reader and manager for personal chess game analysis.
 
-pgn-reader is the backend for pgn-viewer, and only used by it. It should be usable by itself to read and play through a game, though. It should at least be usable to perform some checks on a game read.
+Originally forked from [mliebelt/PgnViewerJS](https://github.com/mliebelt/PgnViewerJS).
 
-## How to Install
+## Setup
 
-`npm install` to get all dependencies resolved. It has as dependency the parser `pgn-parser` which is separately published on NPM.
+```bash
+npm install
+```
 
-## How to Build and Test
+## Build
 
-* `npm build`: Creates a new bundle `lib/pgn.ts`.
-* `npm test`: Runs the whole test suite to check the whole API.
+```bash
+npm run build
+```
 
-## How to Use
+## Test
 
-**To be written**
+```bash
+npm test
+```
+
+## License
+
+Apache-2.0
